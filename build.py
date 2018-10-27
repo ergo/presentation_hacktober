@@ -21,7 +21,7 @@ class Config:
         self.template_path = pathlib.Path(template_pkg).absolute()
         self.index_path = index_path
         self.assets_path = index_path.parent / "assets"
-        self.output_path = pathlib.Path("out").absolute()
+        self.output_path = pathlib.Path("docs").absolute()
 
 
 class Slide:
